@@ -205,7 +205,8 @@ public class MainActivity extends AppCompatActivity {
         } else if (urlToImage != null && !urlToImage.isEmpty()) {
             message = new Message(author, null, System.currentTimeMillis(), urlToImage);
         }
-        db.collection("messages").add(message).addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
+        if (message != null){
+            db.collection("messages").add(message).addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
                 @Override
                 public void onSuccess(DocumentReference documentReference) {
                     editTextMessage.setText("");
@@ -218,6 +219,8 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
+        }
+
 
 
     private void signOut() {
