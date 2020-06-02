@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "601988109970",
+    "firebase_url": "https://chat-app-ae21c.firebaseio.com",
+    "project_id": "chat-app-ae21c",
+    "storage_bucket": "chat-app-ae21c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601988109970:android:0c4a8b1fd546d26a17784b",
+        "android_client_info": {
+          "package_name": "com.nikorych.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601988109970-pdmnl6p5qp3od876fbc3r472shopms68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nikorych.chatapp",
+            "certificate_hash": "586f82ce767fd1ccd82f3049d364a6487e84fca1"
+          }
+        },
+        {
+          "client_id": "601988109970-fc0be2o5ne5ruukalj53ka20vh1c9ae0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGgOuJ4xFjeKWpEYkG6eJHm9l2_kbdZ4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601988109970-fc0be2o5ne5ruukalj53ka20vh1c9ae0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
